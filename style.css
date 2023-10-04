@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin-right: 20px;
+
+
+}
+li a{
+    color: white;
+    text-decoration: none; 
+}
+
+li a:hover{
+    background-color: rgb(107, 12, 90);
+}
+
+.logo {
+    text-align: right;
+    margin-bottom: 10px;    
+}
+
+#hero{
+    background: linear-gradient(rgb(19, 19, 19),rgb(234, 81, 223));
+    color: white;
+}
+
+#hero h1{
+    text-align: center;
+    padding-top: 60px;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hero p{
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    padding-bottom: 30px;
+}
+
+#product h1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#product img{
+    padding-top: 50px;
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 70px;
+    margin: 10px;
+}
+
+#products img:hover{
+    box-shadow: 
+}
+#products{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+footer{
+    height: 150px;
+    background: linear-gradient(rgb(234, 81, 223),rgb(47, 46, 47));
+}
+
+footer p{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer h1{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
